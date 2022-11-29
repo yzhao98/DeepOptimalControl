@@ -1,0 +1,6 @@
+# quadrotor
+CUDA_VISIBLE_DEVICES=1 python train_direct_qua.py --lr 0.0001 --X0_scale 2 --T 4 --batch_size 2048 --x_dim 12 --u_dim 4 --hidden_size 64 --seed 1 --use_gpu --load_model --pre_epochs 1000 --num_iters 100 --experiment_name "quadrotor_fix";
+CUDA_VISIBLE_DEVICES=1 python train_direct_qua.py --lr 0.0001 --X0_scale 2 --T 8 --batch_size 2048 --x_dim 12 --u_dim 4 --hidden_size 64 --seed 1 --use_gpu --load_model --pre_epochs 1000 --num_iters 100 --experiment_name "quadrotor_fix";
+CUDA_VISIBLE_DEVICES=1 python train_direct_qua.py --lr 0.0001 --X0_scale 2 --T 16 --batch_size 2048 --x_dim 12 --u_dim 4 --hidden_size 64 --seed 1 --use_gpu --load_model --pre_epochs 1000 --num_iters 100 --experiment_name "quadrotor_fix";
+CUDA_VISIBLE_DEVICES=1 python train_direct_qua.py --lr 0.0001 --X0_scale 10 --T 16 --batch_size 2048 --x_dim 12 --u_dim 4 --hidden_size 64 --seed 1 --use_gpu --load_model --pre_epochs 2000 --num_iters 1000 --experiment_name "quadrotor_fix";
+CUDA_VISIBLE_DEVICES=1 python train_direct_qua.py --lr 0.0001 --X0_scale 10 --T 16 --batch_size 2048 --x_dim 12 --u_dim 4 --hidden_size 64 --seed 1 --use_gpu --load_model --pre_epochs 2000 --num_iters 1000 --experiment_name "quadrotor_adaptive";

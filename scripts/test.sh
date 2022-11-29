@@ -1,0 +1,6 @@
+python compare.py --problem_id "1_20" --experiment_name "satellite_fix" --direct_iter "1000" --sl_iter "100" --finetune_iter "100"
+python compare.py --problem_id "2_4" --experiment_name "quadrotor_fix" --direct_iter "3000" --sl_iter "1000" --finetune_iter "100"
+python compare.py --problem_id "2_8" --experiment_name "quadrotor_fix" --direct_iter "3000" --sl_iter "1000" --finetune_iter "100"
+python compare.py --problem_id "2_16" --experiment_name "quadrotor_fix" --direct_iter "3000" --sl_iter "1000" --finetune_iter "100"
+python compare.py --problem_id "10_16" --experiment_name "quadrotor_fix" --direct_iter "3000" --sl_iter "2000" --finetune_iter "100"
+python compare.py --problem_id "10_16" --experiment_name "quadrotor_adaptive" --direct_iter "3000" --sl_iter "2000" --finetune_iter "100"
