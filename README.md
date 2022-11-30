@@ -1,6 +1,6 @@
 # Introduction
 This is a repo for our paper [Offline Supervised Learning V.S. Online Direct Policy Optimization: A Comparative Study and A Unified Training Paradigm for Neural
-Network-Based Closed-Loop Optimal Control]().
+Network-Based Closed-Loop Optimal Control](https://arxiv.org/abs/2211.15930).
 
 # Dependencies
 ```
